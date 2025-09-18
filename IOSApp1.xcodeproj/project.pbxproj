@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		89F5E46E2E7C46F100A6E896 /* AddOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F5E46D2E7C46F100A6E896 /* AddOrderView.swift */; };
+		89F5E4702E7C49D800A6E896 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F5E46F2E7C49D800A6E896 /* Order.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		89F5E45E2E7C42F400A6E896 /* IOSApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F5E46D2E7C46F100A6E896 /* AddOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderView.swift; sourceTree = "<group>"; };
+		89F5E46F2E7C49D800A6E896 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,7 @@
 		89F5E4552E7C42F400A6E896 = {
 			isa = PBXGroup;
 			children = (
+				89F5E46C2E7C46C500A6E896 /* Models */,
 				89F5E4602E7C42F400A6E896 /* IOSApp1 */,
 				89F5E45F2E7C42F400A6E896 /* Products */,
 			);
@@ -43,6 +51,15 @@
 				89F5E45E2E7C42F400A6E896 /* IOSApp1.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		89F5E46C2E7C46C500A6E896 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89F5E46D2E7C46F100A6E896 /* AddOrderView.swift */,
+				89F5E46F2E7C49D800A6E896 /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F5E46E2E7C46F100A6E896 /* AddOrderView.swift in Sources */,
+				89F5E4702E7C49D800A6E896 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

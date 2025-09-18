@@ -11,7 +11,7 @@ import SwiftUI
 struct IOSApp1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView()   // Aquí se carga la vista principal
         }
     }
 }
