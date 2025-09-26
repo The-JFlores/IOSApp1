@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+// Entry point of the app
+// Loads the main view when the app starts
 @main
 struct IOSApp1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()   // Aquí se carga la vista principal
+            ContentView()   // Loads the main view
         }
     }
 }
